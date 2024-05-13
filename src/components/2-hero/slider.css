@@ -1,0 +1,32 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 100px) {
+  .swiper {
+    text-align: center;
+  }
+}
+
+.swiper-slide {
+  font-size: 18px;
+}
+
+.swiper-slide .imgHero {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper:hover {
+  cursor: grab;
+}
+.swiper:active {
+  cursor: grabbing;
+}
+@media (max-width: 600px) {
+  .parent-slidr .imgHero {
+    display: none;
+  }
+}

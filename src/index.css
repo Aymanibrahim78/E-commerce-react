@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+.border{
+  border: solid 3px red !important;
+
+}
+
+/* scroll bar  */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+ }
+ 
+::-webkit-scrollbar-track {
+  border: 7px solid #292c3b;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  transition: all 5s;
+  
+  /* background-color: #0000cf; */
+  }
+ 
+::-webkit-scrollbar-thumb {
+  background: #dbcdba;
+  
+ 
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+  background: #e9b97b;
+  
+
+}
+.btn-category{
+
+  
+    border: solid 1px rgb(197, 173, 127) !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    text-transform: capitalize !important;
+  
+
+}

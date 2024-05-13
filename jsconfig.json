@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "checkJs": true,
+      "jsx": "react-jsx",
+      "baseUrl": "src",
+      "resolveJsonModule": true,
+      "lib": ["es6", "dom", "es2017"],
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules",
+      "build"
+    ]
+  }
+
+
+  // import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+  // import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+
+
+  // rgba(254, 169, 40, 0.4);
+
+
+//  </SwiperSlide>
+  // rgba(254, 169, 40, 0.4);

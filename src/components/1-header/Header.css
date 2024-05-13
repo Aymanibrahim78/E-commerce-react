@@ -1,0 +1,259 @@
+:root{
+    --bgHeaer: rgba(254, 169, 40, 0.4);
+    --bgComponents: #fff;
+    --title: #000;
+    --bgMenuMob :#f1d78e;
+  
+}
+.dark {
+    --bgHeaer: #915b0b;
+    --bgComponents: rgb(41, 49, 65);
+    --title:#fff;
+    --bgMenuMob :#252323;
+
+  
+
+}
+
+
+.headerSec-1{
+    background-color: var(--bgHeaer);
+    padding: 5px 0;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 2;
+   
+    top: 0;
+   
+}
+.box-search{
+    position: relative;
+
+}
+@media(max-width:600px){
+    .box-search{
+        display: none;
+    }
+
+}
+
+.input-search{
+all: unset;
+border: solid 1px whitesmoke;
+padding: 7px 11px;
+border-radius: 20px;
+transition: all 0.3s;
+width: 150px;   
+background-color: var(--bgComponents) ;
+
+
+}
+.input-search:focus{
+    all: unset;
+    border: solid 1px rgb(255, 185, 128) !important;
+    width: 250px;
+    padding: 7px 11px;
+    background-color: var(--bgComponents) ;
+
+border-radius: 20px;
+transition: all 0.3s;
+
+
+}
+
+.input-search:hover{
+    
+   
+width: 250px;
+
+
+}
+.btn-search{
+    all: unset;
+    color: rgb(151, 195, 233);
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    
+
+}
+.badge-cart{
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    background-color: #dbcdba;
+    padding: 7px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+
+    
+
+}
+.header2{
+    background-color: var(--bgComponents);
+    box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.26);
+    padding: 10px;
+}
+/* .nav-link-lg-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 50px;
+} */
+@media(max-width:600px){
+    .nav-link-lg-screen{
+display: none;
+}
+.header2{
+    padding: 0px;
+
+}
+}
+
+
+.list-link{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.item-link{
+    list-style: none;
+    font-weight: 500;
+    color: var(--title);
+    transition: all 0.5s;
+    text-transform: capitalize;
+
+}
+.item-link:hover{
+    cursor: pointer;
+    color: rgb(254, 168, 40);
+}
+
+.btn-menu{
+    all: unset;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: none;
+}
+.btn-menu:hover{
+color: #472a00;
+
+}
+@media(max-width:600px){
+    .btn-menu{
+        display: block;
+    }
+}
+
+/* Menu Mob */
+.menu-mob{
+    background-color: #00000050 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.menu-btn-mob{
+    background-color:var(--bgMenuMob) ;
+    text-align: center;
+    width: 80%;
+    padding: 100px 0;
+    margin: 0 auto;
+    margin-top: 50%;
+    border-radius: 20px;
+    position: relative;
+    animation: myMovHeader  0.5s  1 ;
+
+}
+@keyframes myMovHeader {
+    0%{scale: 0;}
+    50%{scale: 0.6;}
+    100%{scale: 1;}
+    
+}
+
+.btn-cancel{
+    all: unset;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: bolder;
+
+}
+.btn-cancel:hover{
+    transform: rotate(180deg);
+    color: red;
+   
+}
+
+.box-search-mob{
+    position: relative;
+    width: 250px;   
+    display: block;
+    margin:  0 auto;
+    margin-bottom:20px ;
+}
+.input-search-mob{
+    all: unset;
+    border: solid 1px whitesmoke;
+    padding: 7px 11px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    width: 210px;   
+    background-color: var(--bgComponents) ;
+}
+.input-search-mob:focus{
+    all: unset;
+    border: solid 1px rgb(255, 185, 128) !important;
+    width: 210px;
+    padding: 7px 11px;
+    background-color: var(--bgComponents) ;
+
+border-radius: 20px;
+transition: all 0.3s;
+}
+.btn-search-mob{
+    all: unset;
+    color: rgb(151, 195, 233);
+    position: absolute;
+    right: 20px;
+    top: 7px;
+
+    
+}
+
+
+.item-link-mob{
+    margin: 10px 0;
+    list-style: none;
+    font-weight: 500;
+    color: var(--title);
+    transition: all 0.5s;
+    text-transform: capitalize;
+
+
+}
+.item-link-mob:hover{
+    cursor: pointer;
+    color: rgb(254, 168, 40);
+}
+@media(max-width:400px){
+
+    .headersec1{
+        justify-content: center !important;
+    }
+    .headerIcon{
+        justify-content: space-between !important;
+       
+        width: 90vw !important;
+        
+    }
+}

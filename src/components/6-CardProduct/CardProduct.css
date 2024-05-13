@@ -1,0 +1,79 @@
+:root{
+    --bgComponents: #fff;
+
+}
+.dark{
+    --bgComponents: rgb(41, 49, 65);
+
+}
+.box-card-product{
+position: relative;
+background-color: var(--bgComponents);
+width: 280px;
+padding: 20px;
+border-radius:30px ;
+text-align: center;
+margin: 10px 0;
+padding-top: 120px;
+box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.26);
+margin-top: 100px;
+transition: all 1s !important;
+
+
+}
+
+.img-card-product{
+width: 200px;
+height: 200px;
+position: absolute;
+ top: -90px; 
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+.title-card-product{
+
+font-size: large !important;
+margin: 5px 0 !important;
+
+}
+
+.descraption-card-product{
+font-size: 12px !important;
+margin: 5px 0 !important;
+
+
+}
+.pirce-card-product{
+    /* color: black; */
+    font-size: larger !important;
+    font-weight: bolder !important;
+}
+.btn-card-product{
+    all: unset;
+    background-color: #FEA928;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.5s;
+}
+.btn-card-product:hover{
+    opacity: 0.8;
+    color: #353333;
+
+}
+.box-card-product:hover{
+background-color: #FEA928;
+
+}
+.box-card-product:hover.box-card-product .MuiRating-root{
+    color: #fff;
+}
+.box-card-product:hover.box-card-product .btn-card-product{
+    background-color: #fff;
+    color: black;
+}
